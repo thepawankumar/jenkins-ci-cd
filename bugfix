@@ -1,0 +1,9 @@
+git config --global user.name “thepawankumar”
+git config  --global user.email “pawankballia@gmail.com”
+git config –list
+
+ls -al ~/ .ssh/
+ssh-keygen -t rsa -b 4096 -C "thepawankumar"
+ ls -al ~/ .ssh/
+ cat ~/ .ssh/id_rsa.pub
+ssh -T git@github.com
